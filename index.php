@@ -7,17 +7,17 @@
 		<link rel="stylesheet" href="/web/css/style.css">
 	</head>
 	<body>
-		<div id="layout">
 <?php
 include_once "web/php/header.php";
 ?>
-			<section>
+		<section id="section-main">
+			<section id="homepage-section-first">
 				<article>
 				</article>
 			</section>
+		</section>
 <?php
 include_once "web/php/footer.php";
 ?>
-		</div>
 	</body>
 </html>

@@ -1,10 +1,10 @@
 <?php
 echo
-	"\t\t\t<nav>".
-	"\t\t\t\t<ul>".
-	"\t\t\t\t<li>home".
-	"\t\t\t\t<li>about me".
-	"\t\t\t\t<li>my work".
-	"\t\t\t\t</ul>".
-	"\t\t\t</nav>";
+	"\t\t<nav>\n".
+	"\t\t\t<ul>\n".
+	"\t\t\t<li><a href='/'>home</a>\n".
+	"\t\t\t<li><a href='/about-me/'>about me</a>\n".
+	"\t\t\t<li><a href='/my-work/'>my work</a>\n".
+	"\t\t\t</ul>\n".
+	"\t\t</nav>\n";
 ?>

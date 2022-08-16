@@ -10,4 +10,37 @@ html
 nav
 {
 	background-color: Green;
+	padding: 0 5em;
+	overflow: auto;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	margin-left: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	background-color: DarkGreen;
+}
+#section-main
+{
+	padding: 5em;
+}
+#homepage-section-first
+{
+	border: 1em solid purple;
 }
