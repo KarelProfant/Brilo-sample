@@ -5,42 +5,38 @@
 }
 html
 {
-	background-color: grey;
+	background-color: #333333;
 }
 nav
 {
-	background-color: Green;
+	background-color: #1F464D;
 	padding: 0 5em;
 	overflow: auto;
 }
-nav ul {
-	list-style-type: none;
+nav ul
+{
 	overflow: hidden;
 	float: right;
 }
-
-nav li {
+nav li
+{
 	float: left;
 }
-
-nav li a {
+nav li a
+{
 	display: block;
-	color: white;
-	text-align: center;
 	padding: 1em;
 	margin-left: 1em;
-	text-decoration: none;
-	text-transform: uppercase;
 }
-
-nav li a:hover {
+nav li a:hover
+{
 	background-color: DarkGreen;
 }
 #section-main
 {
 	padding: 5em;
 }
-#homepage-section-first
+footer
 {
-	border: 1em solid purple;
+	padding: 1em 5em;
 }
