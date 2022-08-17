@@ -3,6 +3,13 @@
 	font-family: "Aboreto-Regular";
 	src: url('/web/font/Aboreto-Regular.ttf') format('truetype');
 }
+h1
+{
+	font-family: "Aboreto-Regular", non-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 2em;
+}
 nav
 {
 	font-family: "Aboreto-Regular", non-serif;
@@ -16,6 +23,20 @@ nav li a
 	color: white;
 	text-align: center;
 	text-decoration: none;
+	text-transform: uppercase;
+}
+p
+{
+	font-family: Arial, non-serif;
+	color: white;
+	font-size: 1.2em;
+}
+article#article--homepage button
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.4em;
 	text-transform: uppercase;
 }
 footer
