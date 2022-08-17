@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Aboreto-Regular";
+  src: url('/web/font/Aboreto-Regular.ttf') format('truetype');
+}
+nav
+{
+	font-family: "Aboreto-Regular", non-serif;
+}
