@@ -34,6 +34,24 @@ include_once "web/php/header.php";
 						<p>Awesome project I did in 2018. I was experience for me</p>
 					</article>
 				</div>
+				<div class="div--homepage--column">
+					<div class="div--homepage--column-picture">
+						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+					</div>
+					<article>
+						<h3>epic project</h3>
+						<p>Awesome project I did in 2018. I was experience for me</p>
+					</article>
+				</div>
+				<div class="div--homepage--column">
+					<div class="div--homepage--column-picture">
+						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+					</div>
+					<article>
+						<h3>epic project</h3>
+						<p>Awesome project I did in 2018. I was experience for me</p>
+					</article>
+				</div>
 			</section>
 		</section>
 <?php

@@ -11,7 +11,7 @@ html
 nav
 {
 	background-color: #1F464D;
-	padding: 0 10em;
+	padding: 0 min(10em, 10vw);
 }
 nav ul
 {
@@ -33,7 +33,7 @@ nav li a:hover
 }
 section#section-main
 {
-	padding: 10em;
+	padding: min(10em, 10vw);
 }
 #homepage-section-first
 {
@@ -42,6 +42,8 @@ section#section-main
 #homepage-section-second
 {
 	padding-top: 2em;
+	display: flex;
+	justify-content: space-between;
 }
 article#article--homepage
 {
@@ -84,5 +86,5 @@ img#img--homepage--me
 }
 footer
 {
-	padding: 1em 10em;
+	padding: 1em min(10em, 10vw);
 }
