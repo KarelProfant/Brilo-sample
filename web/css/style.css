@@ -35,6 +35,14 @@ section#section-main
 {
 	padding: 10em;
 }
+#homepage-section-first
+{
+	padding-bottom: 10em;
+}
+#homepage-section-second
+{
+	padding-top: 2em;
+}
 article#article--homepage
 {
 	float: left;
@@ -56,6 +64,23 @@ img#img--homepage--me
 {
 	float: right;
 	width: 40%;
+}
+.div--homepage--column
+{
+	background-color: #3697A7;
+	width: 30%;
+}
+.div--homepage--column img
+{
+	width: 100%;
+}
+.div--homepage--column article
+{
+	padding: 2em 1em;
+}
+.div--homepage--column article p
+{
+	padding-top: 1em;
 }
 footer
 {

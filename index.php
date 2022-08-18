@@ -23,6 +23,18 @@ include_once "web/php/header.php";
 				</article>
 				<img src="/web/img/homepage/homepage--me.jpg" alt="me" id="img--homepage--me">
 			</section>
+			<h2>What I did</h2>
+			<section id="homepage-section-second">
+				<div class="div--homepage--column">
+					<div class="div--homepage--column-picture">
+						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+					</div>
+					<article>
+						<h3>epic project</h3>
+						<p>Awesome project I did in 2018. I was experience for me</p>
+					</article>
+				</div>
+			</section>
 		</section>
 <?php
 include_once "web/php/footer.php";
