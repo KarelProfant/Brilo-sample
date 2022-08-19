@@ -44,6 +44,8 @@ section#section-main
 	padding-top: 2em;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2em;
 }
 article#article--homepage
 {
@@ -71,6 +73,20 @@ img#img--homepage--me
 {
 	background-color: #3697A7;
 	width: 30%;
+}
+@media (max-width: 980px)
+{
+  .div--homepage--column
+	{
+		width: calc(50% - 2em/2);
+	}
+}
+@media (max-width: 500px)
+{
+  .div--homepage--column
+	{
+		width: 100%;
+	}
 }
 .div--homepage--column-picture
 {
