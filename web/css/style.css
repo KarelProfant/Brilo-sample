@@ -72,9 +72,23 @@ img#img--homepage--me
 	background-color: #3697A7;
 	width: 30%;
 }
+.div--homepage--column-picture
+{
+	position: relative;
+}
 .div--homepage--column img
 {
 	width: 100%;
+}
+.div--homepage--column--image-frame
+{
+	width: calc(100% - 2*1.5em - 2*1px);
+	height: calc(100% - 2*1em - 2*1px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid white;
+	margin: 1em 1.5em;
 }
 .div--homepage--column article
 {

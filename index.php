@@ -28,6 +28,7 @@ include_once "web/php/header.php";
 				<div class="div--homepage--column">
 					<div class="div--homepage--column-picture">
 						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+						<div class="div--homepage--column--image-frame"></div>
 					</div>
 					<article>
 						<h3>epic project</h3>
@@ -36,19 +37,21 @@ include_once "web/php/header.php";
 				</div>
 				<div class="div--homepage--column">
 					<div class="div--homepage--column-picture">
-						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+						<img src="/web/img/homepage/homepage--block--another-work.jpg" alt="another work I did">
+						<div class="div--homepage--column--image-frame"></div>
 					</div>
 					<article>
-						<h3>epic project</h3>
+						<h3>another work I did</h3>
 						<p>Awesome project I did in 2018. I was experience for me</p>
 					</article>
 				</div>
 				<div class="div--homepage--column">
 					<div class="div--homepage--column-picture">
-						<img src="/web/img/homepage/homepage--block--epic-project.jpg" alt="epic project">
+						<img src="/web/img/homepage/homepage--block--rebrand-company.jpg" alt="rebrand of this company">
+						<div class="div--homepage--column--image-frame"></div>
 					</div>
 					<article>
-						<h3>epic project</h3>
+						<h3>rebrand of this company</h3>
 						<p>Awesome project I did in 2018. I was experience for me</p>
 					</article>
 				</div>
