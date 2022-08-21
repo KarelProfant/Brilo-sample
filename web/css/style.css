@@ -38,7 +38,7 @@ section#section-main
 {
 	padding: min(10em, 10vw);
 }
-#homepage-section-first
+#homepage-section__first
 {
 	padding-bottom: 10em;
 	display: flex;
@@ -46,7 +46,7 @@ section#section-main
 	flex-wrap: wrap;
 	gap: 2em;
 }
-#homepage-section-second
+#homepage-section__second
 {
 	padding-top: 2em;
 	display: flex;
@@ -54,15 +54,15 @@ section#section-main
 	flex-wrap: wrap;
 	gap: 2em;
 }
-article#article--homepage
+#homepage-section__first article
 {
 	width: 50%;
 }
-article#article--homepage p
+#homepage-section__first article p
 {
 	padding: 2em 0;
 }
-article#article--homepage button
+#homepage-section__first article button
 {
 	background-color: #3697A7;
 	border: none;
@@ -71,25 +71,25 @@ article#article--homepage button
 	overflow: hidden;
 	cursor: pointer;
 }
-img#img--homepage--me
+#homepage-section__first img
 {
 	width: 40%;
 	height: 100%;
 }
-.div--homepage--column
+.homepage__column
 {
 	background-color: #3697A7;
 	width: 30%;
 }
-.div--homepage--column-picture
+.homepage__column__picture-box
 {
 	position: relative;
 }
-.div--homepage--column img
+.homepage__column__picture-box img
 {
 	width: 100%;
 }
-.div--homepage--column--image-frame
+.homepage__column__picture-box div
 {
 	width: calc(100% - 2*1.5em - 2*1px);
 	height: calc(100% - 2*1em - 2*1px);
@@ -99,11 +99,11 @@ img#img--homepage--me
 	border: 1px solid white;
 	margin: 1em 1.5em;
 }
-.div--homepage--column article
+.homepage__column article
 {
 	padding: 2em 1em;
 }
-.div--homepage--column article p
+.homepage__column article p
 {
 	padding-top: 1em;
 }
@@ -113,26 +113,26 @@ footer
 }
 @media (max-width: 980px)
 {
-  .div--homepage--column
+  .homepage__column
 	{
 		width: calc(50% - 2em/2);
 	}
 }
 @media (max-width: 500px)
 {
-  .div--homepage--column
+  .homepage__column
 	{
 		width: 100%;
 	}
-	#homepage-section-first
+	#homepage-section__first
 	{
 		flex-direction: column-reverse;
 	}
-	article#article--homepage
+	#homepage-section__first article
 	{
 		width: 100%;
 	}
-	img#img--homepage--me
+	#homepage-section__first img
 	{
 		width: 100%;
 	}
